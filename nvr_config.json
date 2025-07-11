@@ -1,0 +1,43 @@
+{
+    "camera": {
+        "rtsp_url": "rtsp://admin:smartitlog1~@192.168.0.115:554/Streaming/Channels/102",
+        "resolution": "640x480",
+        "fps": 20,
+        "save_path": "D:/",
+        "autostart_streaming": true,
+        "autostart_recording": true,
+        "message1": "\uacf5\uc9c0\uc0ac\ud56d \ud14c\uc2a4\ud2b8 \uc911!!"
+    },
+    "storage": {
+        "min_free_space_gb": 5,
+        "min_free_space_percent": 5,
+        "auto_delete": true,
+        "delete_batch_size": 5
+    },
+    "menu_keys": {
+        "camera_connect": "F1",
+        "camera_stop": "F2",
+        "prev_group": "N",
+        "camera_connect_all": "F3",
+        "camera_stop_all": "F4",
+        "next_group": "M",
+        "prev_config": "F5",
+        "record_start": "F7",
+        "screen_rotate": "F9",
+        "next_config": "F6",
+        "record_stop": "F8",
+        "screen_flip": "F10",
+        "screen_hide": "Esc",
+        "menu_open": "F11",
+        "program_exit": "F12"
+    },
+    "ptz_keys": {},
+    "backup": {
+        "src_path": "D:/camera_1/completed",
+        "dest_path": "D:/",
+        "ext": "mp4",
+        "delete_after_backup": true,
+        "verification": true,
+        "sync_interval": 5
+    }
+}
